@@ -1,1 +1,61 @@
+body{
+    background-image: url(../imgs/wpnight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        color: aqua;
+    }
+        .subtitulo{
+            text-align: center;
+            color: aliceblue;
+            text-decoration: underline;
+            padding-top: 20px;
+        }
 
+
+        .principalc{
+            color: aliceblue;
+            padding: 150px;
+            .info{
+                padding: 40px;
+               }
+               .principal2{
+                text-align: left;
+                color: aliceblue;
+                padding: 150px;
+            }
+           
+               
+                .tabla{
+                    margin-top: 40px;
+                    border-spacing: 4px;
+                    border: 4px;
+                    border-style:ridge;
+                }
+        
+                .padre-grid{
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
+                    grid-template-rows: auto;
+                    grid-template-areas: "b1 b2 b3 b4 b5";
+                    justify-items: center;
+                }
+                .b1{
+                    grid-area: b1;
+                }
+                .b2{
+                    grid-area: b2;
+                }
+                .b3{
+                    grid-area: b3;
+                }
+                .b4{
+                    grid-area: b4;
+                }
+                .b5{
+                    grid-area: b5;
+                } 
+            }
+        }                    
+ 
+    
