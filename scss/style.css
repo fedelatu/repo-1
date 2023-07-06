@@ -1,0 +1,108 @@
+*{padding: 0;
+    margin: 0;
+    }
+@import "./abstract/variables";
+@import "./abstract/listas";
+@import "./abstract/maps";
+@import "./componentes/bnavs";
+@import "./componentes/body";
+@import "./componentes/footer";
+@import "./componentes/header";
+@import "./abstract/mixin";
+@import './abstract/extend';
+
+h1{
+    color: aqua;
+}
+header{position: fixed;
+}
+    .barranav1{
+        border-style: groove;
+        border-color: lightseagreen;
+        background-color: darkgray;
+        margin: 10px;
+    }
+    .subtitulo{
+        text-align: center;
+        color: aliceblue;
+        text-decoration: underline;
+        padding-top: 20px;
+    }
+    body{
+        background-image: url(../imgs/wpnight.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .principalc{
+        color: aliceblue;
+        padding: 150px;
+    } 
+    .info{
+        padding: 40px;
+       }
+       .principal2{
+        text-align: left;
+        color: aliceblue;
+        padding: 150px;
+    }
+    .contacto{
+        color: cornflowerblue;
+    }
+    .seccion{
+        padding: 150px;
+        color: bisque;
+        }
+        .tabla{
+            margin-top: 40px;
+            border-spacing: 4px;
+            border: 4px;
+            border-style:ridge;
+        }
+
+        .padre-grid{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: auto;
+            grid-template-areas: "b1 b2 b3 b4 b5";
+            justify-items: center;
+        }
+        .b1{
+            grid-area: b1;
+        }
+        .b2{
+            grid-area: b2;
+        }
+        .b3{
+            grid-area: b3;
+        }
+        .b4{
+            grid-area: b4;
+        }
+        .b5{
+            grid-area: b5;
+        }
+        @media (max-width: 576px){
+            .titulo{
+                text-align: center;
+            }
+            .padre-grid{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;}
+            .seccion{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .imgc{
+                width: 100%;
+            }
+            }
+
+        footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;   
+        }
+
