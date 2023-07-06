@@ -122,5 +122,10 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
 }
+.dsico{
+    width: 50px;
+    height: 50px;
+    }
+    
 
 /*# sourceMappingURL=style.css.map */
