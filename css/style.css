@@ -29,11 +29,15 @@ body .principalc .principal2 {
   color: aliceblue;
   padding: 150px;
 }
-body .principalc .tabla {
+body .principalc .tabla{
   margin-top: 40px;
   border-spacing: 4px;
   border: 4px;
   border-style: ridge;
+}
+th, td{
+  border: 2px;
+  padding: 5px;
 }
 body .principalc .padre-grid {
   display: grid;
@@ -62,6 +66,7 @@ footer {
   display: flex;
   flex-direction: Row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 footer .dsico {
   width: 50px;

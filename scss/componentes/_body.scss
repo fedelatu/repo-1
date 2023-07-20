@@ -29,10 +29,11 @@ body{
                 .tabla{
                     margin-top: 40px;
                     border-spacing: 4px;
-                    border: 4px;
+                    border: 5px;
                     border-style:ridge;
                 }
-        
+               
+                
                 .padre-grid{
                     display: grid;
                     grid-template-columns: repeat(5, 1fr);

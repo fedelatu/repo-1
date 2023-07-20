@@ -1,0 +1,29 @@
+main{
+    text-align: left;
+    color: aliceblue;
+    padding: 150px;
+
+}
+.seccion{
+    padding: 150px;
+    color: bisque;
+    }
+@media (max-width: 576px){
+    .titulo{
+        text-align: center;
+    }
+    .padre-grid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    .seccion{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imgc{
+        width: 100%;
+    }
+}
